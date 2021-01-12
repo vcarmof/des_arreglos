@@ -9,7 +9,7 @@ def read_file (filename)
 end
 
 filtro = ARGV[0].to_i
-data = read_file("procesos.data")
+data = read_file("./procesos.data")
 # resultado = "" Acá los convertí en string para que cada valor esté en una línea
 array = [] # También podría almacenar los resultados en un array y quedarán como int
 n = data.count
